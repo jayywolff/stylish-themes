@@ -11,7 +11,8 @@
     color: #dfe0e0 !important;
   }
   .fcn-component div[class^="hintHeader__"],
-  div[class^="hint__"] div[class*=" hintBody__"] {
+  div[class^="hint__"] div[class*=" hintBody__"],
+  .fcn-checkpoint.fcn-checkpoint--disabled {
     background-color: #111019 !important;
     color: #dfe0e0 !important;
     border-color: lightgray !important;
