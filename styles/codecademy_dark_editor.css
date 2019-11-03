@@ -1,20 +1,29 @@
 /* https://userstyles.org/styles/169966/codecademy-dark-course */
 
 @-moz-document url-prefix("https://www.codecademy.com/courses") {
-div[class^="container__"], .fcn-component div[class^="header__"], .fcn-component div[class^="body"], .fcn-component h1[class^="body"], .fcn-checkpoint, .fcn-component div[class^="hintBody"] {
-  background-color: #111019;
-  color: #dfe0e0 !important;
-}
-.fcn-component div[class^="hintHeader__"], div[class^="hint__"] div[class*=" hintBody__"] {
-  background-color: #111019 !important;
-  color: #dfe0e0 !important;
-  border-color: lightgray !important;
-}
-div[class*=" hintOpen__"] {
-  border-color: lightgray !important;
-}
-.fcn-component div[class^="hintHeader__"]:hover {
-  background-color: #15141f !important;
-  border-color: lightgray !important;
-}
+  .fcn-component div[class^="header__"],
+  .fcn-component div[class^="body"],
+  .fcn-component h1[class^="body"],
+  .fcn-checkpoint,
+  .fcn-component div[class^="hintBody"],
+  .fcn-component div[class^="container__"] {
+    background-color: #111019;
+    color: #dfe0e0 !important;
+  }
+  .fcn-component div[class^="hintHeader__"],
+  div[class^="hint__"] div[class*=" hintBody__"] {
+    background-color: #111019 !important;
+    color: #dfe0e0 !important;
+    border-color: lightgray !important;
+  }
+  div[class*=" hintOpen__"] {
+    border-color: lightgray !important;
+  }
+  .fcn-component div[class^="hintHeader__"]:hover {
+    background-color: #15141f !important;
+    border-color: lightgray !important;
+  }
+  .fcn-component span[class^="text__"] {
+    color: lightgray !important;
+  }
 }
